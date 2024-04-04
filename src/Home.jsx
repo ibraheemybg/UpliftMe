@@ -13,7 +13,7 @@ function Home(){
         return (
             
             <div>
-                <img className="mImg" src="./public/static/images/mental.jpeg"></img>
+                <img className="mImg" src="/mental.jpeg"></img>
                 <h2>- UpliftMe -</h2>
                 <p>Let's help you take charge of your mental health.</p>
                 <button onClick={navigateToStart} className="anchor"

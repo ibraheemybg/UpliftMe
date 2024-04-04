@@ -34,7 +34,7 @@ function Login(){
 
     return (
         <div>
-        <img className="sImg" src="./public/static/images/mental.jpeg"></img>
+        <img className="sImg" src="/mental.jpeg"></img>
         <h3>- UpliftMe -</h3>
         <p>Log in.</p>
         <h6>Don't have an account? <span><a onClick={navigateToSignUp} href="">Sign up now</a></span></h6>

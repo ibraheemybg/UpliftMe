@@ -38,7 +38,7 @@ function Sign(){
 
     return (
         <div>
-        <img className="sImg" src="./public/static/images/mental.jpeg"></img>
+        <img className="sImg" src="/mental.jpeg"></img>
         <h3>- UpliftMe -</h3>
         <p>Create your account for free.</p>
         <h6>Already have an account? <span><a onClick={navigateToLogin}>Sign in</a></span></h6>

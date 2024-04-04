@@ -6,7 +6,7 @@ function Bot(){
 
     return (
         <div>
-        <img className="sImg" src="./public/static/images/mental.jpeg"></img>
+        <img className="sImg" src="/mental.jpeg"></img>
         <h3>- UpliftMe -</h3>
         <p>How it works?</p>
         <ul>
