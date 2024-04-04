@@ -5,7 +5,7 @@ const {useState} = React;
 function NumberTaker(props) {
   return(
     <div>
-    <img className="sImg" src="./public/mental.jpeg"></img>
+    <img className="sImg" src="./public/static/images/mental.jpeg"></img>
     <h3>- UpliftMe -</h3> <br/>
       <h2>Welcome to MindfulMaze.</h2>
       <h4>Think you're smart? Try to guess 3 numbers correctly in one minute🤓</h4> <br/>

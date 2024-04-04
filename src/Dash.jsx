@@ -46,7 +46,7 @@ function Dash(){
 
     return (
             <div className="dDiv">
-            <img className="dImg" src="./public/mental.jpeg"></img>
+            <img className="dImg" src="./public/static/images/mental.jpeg"></img>
             <h3>- UpliftMe -</h3>
             <p>Welcome</p>
             <h3>How do you feel today?</h3>
@@ -54,11 +54,11 @@ function Dash(){
             <button onClick={sad} className="fBtn">😥Sad</button>
             <button onClick={worried} className="fBtn">😟Worried</button>
             <button onClick={depressed} className="fBtn">😕Depressed</button> <br/> 
-            <button onClick={navigateToGame} className="iBtn"><img className="iImg" src="./public/game.png"></img></button>
-            <button className="iBtn"><img className="iImg" src="./public/chat.png"></img></button>
+            <button onClick={navigateToGame} className="iBtn"><img className="iImg" src="./public/static/images/game.png"></img></button>
+            <button onClick={navigateToBot} className="iBtn"><img className="iImg" src="./public/static/images/chat.png"></img></button>
             <h4>Play Game&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chat with Bot</h4>
-            <button onClick={navigateToProfessional} className="iBtn"><img className="iImg" src="./public/pro.png"></img></button>
-            <button onClick={navigateToCommunity} className="iBtn"><img className="iImg" src="./public/community.jpg"></img></button>
+            <button onClick={navigateToProfessional} className="iBtn"><img className="iImg" src="./public/static/images/pro.png"></img></button>
+            <button onClick={navigateToCommunity} className="iBtn"><img className="iImg" src="./public/static/images/community.jpg"></img></button>
             <h4>Talk to Professional&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Join Community</h4>
         </div>
     )

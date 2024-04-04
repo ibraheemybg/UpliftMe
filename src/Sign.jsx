@@ -3,7 +3,7 @@ import "./Sign.css";
 import "./Login.jsx";
 import "./Terms.jsx";
 import { useNavigate } from "react-router-dom";
-import { createUserWithEmailAndPassword, sendEmailVerification } from "firebase/auth";
+import { createUserWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail } from "firebase/auth";
 import {auth} from "./firebase.js";
 import { useState } from "react";
 
@@ -19,6 +19,7 @@ function Sign(){
     const navigateToLogin = () => {
       navigate("/login");
     };
+
 
     const handleSubmit = async (e) => {
       e.preventDefault();
@@ -37,7 +38,7 @@ function Sign(){
 
     return (
         <div>
-        <img className="sImg" src="./public/mental.jpeg"></img>
+        <img className="sImg" src="./public/static/images/mental.jpeg"></img>
         <h3>- UpliftMe -</h3>
         <p>Create your account for free.</p>
         <h6>Already have an account? <span><a onClick={navigateToLogin}>Sign in</a></span></h6>

@@ -34,7 +34,7 @@ function Login(){
 
     return (
         <div>
-        <img className="sImg" src="./public/mental.jpeg"></img>
+        <img className="sImg" src="./public/static/images/mental.jpeg"></img>
         <h3>- UpliftMe -</h3>
         <p>Log in.</p>
         <h6>Don't have an account? <span><a onClick={navigateToSignUp} href="">Sign up now</a></span></h6>
@@ -46,7 +46,7 @@ function Login(){
               setPassword(e.target.value)
             }}></input> <br></br>
             <button disabled={loading} className="createBtn" type="submit">{loading?"Logging in...": "Login"}</button> <br/>
-            <a>Reset Password</a>
+            <h4>Forgot your password? <a href="" >click here</a></h4>
         </form> 
         </div>
     )    

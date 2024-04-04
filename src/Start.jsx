@@ -17,7 +17,7 @@ function Start(){
 
     return (
         <div>
-        <img className="jImg" src="./public/mental.jpeg"></img>
+        <img className="jImg" src="./public/static/images/mental.jpeg"></img>
             <h2>- UpliftMe -</h2>
             <button onClick={navigateToSignUp} className="new">REGISTER</button> <br/>
             <button onClick={navigateToLogin} className="old">LOGIN</button>
