@@ -1,0 +1,41 @@
+.sImg {
+    height: 70px;
+}
+
+input {
+    height: 20px;
+    width: 350px;
+    margin: 5px;
+}
+
+input[type='checkbox'] {
+    float: left;
+    width: 20px;
+    height: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
+.agree {
+    margin-right: 50px;
+  }
+
+form {
+    height: 300px;
+}
+
+.createBtn {
+    width: 396px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #005656;
+    background: #005656;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.createBtn:hover {
+    background: white;
+    color: #005656;   
+}

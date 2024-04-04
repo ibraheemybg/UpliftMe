@@ -1,0 +1,68 @@
+h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+.dDiv { 
+    margin-bottom: 50px;
+    text-align: left;
+    margin-right: 700px;
+}
+
+.dImg {
+    height: 70px;
+    margin-right: 350px;
+} 
+
+.fBtn {
+    margin:0 10px 15px 0;
+    font-size: 10.5px;
+}
+
+.iImg {
+    height: 100px;
+    width: 100px;
+}
+
+.iBtn {
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .dDiv { 
+        height: 70%;
+        width: 70%;
+        margin-bottom: 150px;
+        text-align: left;
+        margin-right: 180px;
+    }
+    
+.dImg {
+    height: 50px;
+    margin-right: 225px;
+} 
+
+.fBtn {
+    margin:0 5px 15px 0;
+    font-size: 9.2px;
+}
+
+ .iImg {
+    height: 75px;
+    width: 75px;
+}
+
+.iBtn {
+    margin-right: 50px;
+    margin-top: 10px;
+}
+ 
+h4{
+    font-size: small;
+}
+
+}
+ 

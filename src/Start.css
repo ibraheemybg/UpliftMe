@@ -1,0 +1,40 @@
+.jImg {
+    height: 250px;
+}
+
+.new {
+    width: 396px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #005656;
+    background: #005656;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.new:hover {
+    background:white;
+    color:  #005656;
+}
+
+.old {
+    width: 396px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #005656;
+    background: #FFF;
+}
+
+.old:hover {
+    background: #005656;
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .old.new {
+        width: 100px;
+
+    }
+}
